@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 
-app.use(cors({ origin: "https://ong-seed.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://ong-seed.com", credentials: true }));
 app.use(express.json({ limit: "10mb" }));
 app.use(bodyParser.urlencoded({ extended: true }));
 
